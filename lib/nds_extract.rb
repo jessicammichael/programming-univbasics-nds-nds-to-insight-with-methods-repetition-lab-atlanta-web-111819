@@ -1,6 +1,9 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require_relative './directors_database'
 
+
+'''ruby
+
 def directors_totals(source)
   result = {}
   director_index = 0
@@ -39,5 +42,3 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
 end
-
-
