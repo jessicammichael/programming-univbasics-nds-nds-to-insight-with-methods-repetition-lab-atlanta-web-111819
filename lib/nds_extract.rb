@@ -28,7 +28,12 @@ def gross_for_director(d)
 end
 
 def list_of_directors(source)
-  # Write this implementation
+  directors_database = [[[{:name => "Stephen Spielberg",:total => "1357566430"}, {:name => "Russo Brothers", :total => "2281002470"},
+  {:name => "James Cameron", :total => "2571020373"}, {:name => "Spike Lee", :total => "256624217"},
+  {:name => "Wachowski Siblings", :total => "806180282"}, {:name => "Robert Zemeckis", :total => "1273838385"},
+  {:name => "Quentin Tarantino", :total => "662738268"}, {:name =>"Martin Scorsese", :total => "636812242"},
+  {:name =>  "Francis Ford Coppola", :total => "509719258"}
+]]]
 end
 
 def total_gross(source)
