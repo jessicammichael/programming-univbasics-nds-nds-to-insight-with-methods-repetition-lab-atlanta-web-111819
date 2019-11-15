@@ -46,7 +46,7 @@ def total_gross(source)
     end
     coordinate_total
   end
-   
+
   def total_gross
     grand_row_total = 0
     column_index = 0
@@ -56,13 +56,13 @@ def total_gross(source)
     end
     grand_row_total
   end
-   
+
   grand_total = 0
   row_index = 0
   while row_index < .length do
     grand_total += total_gross(lod, row_index)
     row_index += 1
   end
-   
+
   p grand_total
 end
